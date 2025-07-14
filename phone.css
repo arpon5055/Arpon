@@ -1,5 +1,6 @@
 @media (max-width: 768px) {
 body {
+    
    background: radial-gradient(circle, #1f0e4f, #070013);
    /* background-image:url(rm218-bb-07.jpg) ;
     background-size: 100vw;*/
@@ -8,8 +9,8 @@ body {
 }
 
  #profile1{
-    width: 370px;
-    height: 450px;
+    width: 200px;
+    height: 300px;
     background-image: url(IMG-20250620-WA0079.jpg);
     background-size: cover;
     border-radius: 10px;
@@ -20,8 +21,9 @@ body {
     left: 50px;
     border:3px solid #30336b ;
 }
-   #intro{ height:150px;
-    width: 250px;
+   #intro{ height:100px;
+    width: 150px;
+    font-size: 10px;
      background-color: rgb(70, 70, 69);
     border: solid rgb(4, 2, 2);
     border-radius: 10px;
@@ -33,10 +35,11 @@ body {
   
 }
 #audio-player{
-    width: 170px;
-    height: 170px;
+    width: 100px;
+    height: 100px;
     position: fixed;
     top: 0;
+    left: 0;
     background-image:url(1000233112-01.jpeg);
     background-size: cover;
     border-radius:50% ;
@@ -44,11 +47,12 @@ body {
 
 }
 audio{
-     width: 250px;
-    height: 180px;
+     width: 150px;
+    height: 100px;
+   /*display: none;*/
     position: fixed;
-    top: 0;
-    left: 18px;
+    top: 20px;
+    left: 0px;
 }
 
 button{
@@ -76,11 +80,11 @@ button{
 }
 #nav{
    
-   width: 400px;
+   width: 350px;
     gap: 30px;
     background:#c7ecee;
     text-transform: capitalize;
-    height: 50px;
+    height: 60px;
     border: 5px solid rgb(255, 255, 255);
     padding: 5px;
     text-decoration: none;
@@ -89,7 +93,7 @@ button{
     border-radius: 10px;
     position: absolute;
     top: 415px;
-    left: 43%;
+    left: 45px;
   
     
 
@@ -110,7 +114,7 @@ a{
     padding: 10px;
     color: #ffffff;
     position: absolute;
-    top:490px;
+    top:500px;
     left: 45px;
     text-align: center;
     text-transform: capitalize;
@@ -120,35 +124,37 @@ a{
 }
 #Contact{
     width: 80vw;
-    height: 60px;
+    height: 40px;
     background-color: #230b61;
     border: 5px solid #aa7afc;
     border-radius: 10px;
-    padding: 10px;
+    padding: 5px;
+    
     position: fixed;
-    bottom: 0;
+    bottom: 100px;
     left: 45px;
     z-index: 5;
-    font-size: large;
+    font-size: 20px;
     color: white;
-    
    
 }
 #b{
     color: #ffffff;
-    margin-right: 10px;
+    margin-left: 5px;
+    
+   
    
 }
 
 #me{
-    height: 100px;
-    width: 90vw;
+    height: 60px;
+    width: 80vw;
     background-color: #230b61;
     position: absolute;
     top: 600px;
     border: solid black;
     border-radius: 10px;
-    left: 45px;
+    left: 40px;
     color: beige;
     text-align: center;
     padding: 10px;
@@ -159,7 +165,7 @@ a{
     display: inline-block;
     width: 90vw;
     height: 1100px;
-    /*background-color: #ffffff;*/
+    /* background-color: #ffffff;*/
     position: absolute;
     top: 750px;
     left: 45px;
@@ -199,7 +205,7 @@ a{
 }
 #edu-h{
     height: 100px;
-    width: 90vw;
+    width: 80vw;
     background-color: #230b61;
     position: absolute;
     top: 1810px;
@@ -227,18 +233,17 @@ a{
 }
 
 #scl{
-    height: 50%;
-    width: 50%;
+    height: 200px;
+    width: 450px;
     background-image: url(Bidda-Niketon-School-Pic.jpg);
     background-size: cover;
-   /* position: absolute;
-    left: 45px;*/
+   
     border: solid #1f0e4f;
     border-radius: 10px;
 }
 #scl-w{
     width: 500px;
-    height: 400px;
+    height: 450px;
     background-color: #2424a8;
     padding: 10px;
     border: 1px solid black;
@@ -260,8 +265,8 @@ a{
     align-items: center;
 }
 #nc-img{
-    width: 600px;
-    height: 500px;
+    width: 450px;
+    height: 200px;
 background-color: #2424a8;
 background-image:url(narayanganjcollege.jpg) ;
 background-size: cover;
@@ -293,8 +298,8 @@ margin-bottom: 20px;
     align-items: center;
 }
 #hobi-img{
-   width: 600px;
-    height: 700px;
+   width: 450px;
+    height: 500px;
 background-color: #2424a8;
 background-image:url(fulpakhi.jpg) ;
 background-size: cover;
@@ -326,8 +331,8 @@ margin-bottom: 20px;
     align-items: center;
 }
 #rc-img{
-   width: 500px;
-    height: 700px;
+   width: 450px;
+    height: 500px;
 background-color: #2424a8;
 background-image:url(IMG-20250620-WA0095.jpg) ;
 background-size: cover;
@@ -336,8 +341,8 @@ border-radius: 10px;
 margin-bottom: 20px;
 }
 #rc-img2{
-    width: 500px;
-    height: 500px;
+    width: 450px;
+    height: 400px;
 background-color: #2424a8;
 background-image:url(rcback.jpg);
 background-size: cover;
@@ -346,7 +351,7 @@ border-radius: 10px;
 margin-bottom: 20px;
 }
 #rc-w{
-     height: 350px;
+     height: 550px;
     width: 600px;
     background-color:#7b6ffe;
     padding: 10px;
@@ -355,11 +360,11 @@ margin-bottom: 20px;
     font-size: larger;
 }
 
- #blog-h{ height: 100px;
-    width: 90vw;
+ #blog-h{ height: 60px;
+    width: 80vw;
     background-color:#230b61;
     position: absolute;
-    top: 6800px;
+    top: 6670px;
     border: solid black;
     border-radius: 10px;
     left: 45px;
@@ -374,15 +379,15 @@ margin-bottom: 20px;
     width: 90vw;
  
     position: absolute;
-    top: 7000px;
+    top: 6800px;
     left:45px ;
     text-align: center;
     justify-content: space-around;
     align-items: center;
  }
 #blog1-i{
-   width: 500px;
-    height: 600px;
+   width: 450px;
+    height: 500px;
 
 background-image:url(arponback.jpg);
 background-size: cover;
@@ -391,7 +396,7 @@ border-radius: 10px;
 margin-bottom: 20px;
 }
 #blog1-w{
-     height: 400px;
+     height: 490px;
     width: 400px;
     background-color:#271d9c;
     padding: 10px;
@@ -402,19 +407,19 @@ margin-bottom: 20px;
  #blog2{
      display: flex;
     flex-wrap: wrap;
-    height: 1500px;
+    height: 800px;
     width: 90vw;
- 
+/* background-color: #ffffff;*/
     position: absolute;
-    top: 8400px;
+    top: 7800px;
     left:45px ;
     text-align: center;
     justify-content: space-around;
     align-items: center;
  }
 #blog2-i{
-   width: 650px;
-    height: 400px;
+   width: 450px;
+    height: 200px;
 background-color: #2424a8;
 background-image:url(showpic.jpg);
 background-size: cover;
@@ -436,11 +441,11 @@ margin-bottom: 20px;
 #blog3{
      display: flex;
     flex-wrap: wrap;
-    height: 2000px;
+    height: 2500px;
     width: 90vw;
-    /*background-color: #ffffff;*/
+  /*  background-color: #ffffff;*/
     position: absolute;
-    top: 10000px;
+    top: 8600px;
     left:45px ;
     text-align: center;
     justify-content: space-around;
@@ -469,8 +474,8 @@ margin-bottom: 20px;
 }
 
 #two{
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     background-image: url(two.jpg);
     background-size: cover;
     border-radius: 50%;
@@ -478,8 +483,8 @@ margin-bottom: 20px;
     
 }
 #four{
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     background-image: url(four.jpg);
     background-size: cover;
     border-radius: 50%;
@@ -504,7 +509,7 @@ margin-bottom: 20px;
 }
 #blog3-w{
     width: 550px;
-    height: 480px;
+    height: 600px;
     background-color: #8552bc;
     border: 2px solid #2424a8;
     border-radius: 10px;
