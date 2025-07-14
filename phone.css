@@ -1,22 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  overflow-x: hidden;
-}
-
 @media (max-width: 768px) {
-body {
-    
-   background: radial-gradient(circle, #1f0e4f, #070013);
-   /* background-image:url(rm218-bb-07.jpg) ;
-    background-size: 100vw;*/
-    /*background-repeat: no-repeat;*/
-    
-}
 
  #profile1{
     width: 200px;
@@ -37,11 +19,11 @@ body {
      background-color: rgb(70, 70, 69);
     border: solid rgb(4, 2, 2);
     border-radius: 10px;
-    position: absolute;
+    position: relative;
     top:50px;
     left: 60%;
     z-index: 1;
-    color:body white;
+    color: white;
   
 }
 #audio-player{
@@ -85,25 +67,26 @@ button{
     position: absolute;
     top: 350px;
     left: 60%;
-    font-size: 50px;
+    font-size: 25px;
 
 }
 #nav{
    
-   width: 350px;
-    gap: 30px;
+   width: 80vw;
+    /*gap: 30px;*/
     background:#c7ecee;
     text-transform: capitalize;
     height: 60px;
     border: 5px solid rgb(255, 255, 255);
-    padding: 5px;
+    padding: px;
     text-decoration: none;
     font-size: 20px;
     text-align: center;
     border-radius: 10px;
     position: absolute;
     top: 415px;
-    left: 45px;
+    left: 25px;
+    
   
     
 
@@ -125,10 +108,10 @@ a{
     color: #ffffff;
     position: absolute;
     top:500px;
-    left: 45px;
+    left: 20px;
     text-align: center;
     text-transform: capitalize;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
     
     
 }
@@ -164,7 +147,7 @@ a{
     top: 600px;
     border: solid black;
     border-radius: 10px;
-    left: 40px;
+    left: 25px;
     color: beige;
     text-align: center;
     padding: 10px;
@@ -178,7 +161,7 @@ a{
     /* background-color: #ffffff;*/
     position: absolute;
     top: 750px;
-    left: 45px;
+    left: 25px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -214,14 +197,14 @@ a{
    
 }
 #edu-h{
-    height: 100px;
+    height: 80px;
     width: 80vw;
     background-color: #230b61;
     position: absolute;
     top: 1810px;
     border: solid black;
     border-radius: 10px;
-    left: 45px;
+    left: 25px;
     color: beige;
     text-align: center;
     padding: 10px;
@@ -236,7 +219,7 @@ a{
    /*background-color: #ffffff;*/
     position: absolute;
     top: 1950px;
-    left:45px ;
+    left:25px ;
     text-align: center;
     justify-content: space-around;
     align-items: center;
@@ -269,7 +252,7 @@ a{
    
     position: absolute;
     top: 3000px;
-    left:45px ;
+    left:25px ;
     text-align: center;
     justify-content: space-around;
     align-items: center;
@@ -286,7 +269,7 @@ margin-bottom: 20px;
 
 }
 #nc-w{
-    height: 350px;
+    height: 400px;
     width: 400px;
     background-color: rgb(62, 62, 115);
     padding: 10px;
@@ -302,7 +285,7 @@ margin-bottom: 20px;
    
     position: absolute;
     top: 4000px;
-    left:45px ;
+    left:25px ;
     text-align: center;
     justify-content: space-around;
     align-items: center;
@@ -318,7 +301,7 @@ border-radius: 10px;
 margin-bottom: 20px;
 }
 #hobi-w{
-    height: 350px;
+    height: 400px;
     width: 400px;
     background-color:#9980FA;
     padding: 10px;
@@ -335,7 +318,7 @@ margin-bottom: 20px;
    
     position: absolute;
     top: 5100px;
-    left:45px ;
+    left:25px ;
     text-align: center;
     justify-content: space-around;
     align-items: center;
@@ -377,7 +360,7 @@ margin-bottom: 20px;
     top: 6670px;
     border: solid black;
     border-radius: 10px;
-    left: 45px;
+    left: 25px;
     color: beige;
     text-align: center;
     padding: 10px;
@@ -390,7 +373,7 @@ margin-bottom: 20px;
  
     position: absolute;
     top: 6800px;
-    left:45px ;
+    left:25px ;
     text-align: center;
     justify-content: space-around;
     align-items: center;
@@ -421,8 +404,8 @@ margin-bottom: 20px;
     width: 90vw;
 /* background-color: #ffffff;*/
     position: absolute;
-    top: 7800px;
-    left:45px ;
+    top: 7850px;
+    left:25px ;
     text-align: center;
     justify-content: space-around;
     align-items: center;
@@ -456,7 +439,7 @@ margin-bottom: 20px;
   /*  background-color: #ffffff;*/
     position: absolute;
     top: 8600px;
-    left:45px ;
+    left:25px ;
     text-align: center;
     justify-content: space-around;
     align-items: center;

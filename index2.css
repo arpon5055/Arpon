@@ -1,10 +1,19 @@
+
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}*/
+
 body {
-   background: radial-gradient(circle, #1f0e4f, #070013);
-   /* background-image:url(rm218-bb-07.jpg) ;
-    background-size: 100vw;*/
-    /*background-repeat: no-repeat;*/
-    
+  background: radial-gradient(circle, #1f0e4f, #070013);
+  /* background-image: url(rm218-bb-07.jpg);
+     background-size: 100vw;
+     background-repeat: no-repeat; */
+ overflow-x: hidden;
 }
+
 
 #audio-player{
     width: 250px;
@@ -42,7 +51,7 @@ audio{
      background-color: rgb(70, 70, 69);
     border: solid rgb(4, 2, 2);
     border-radius: 10px;
-    position: absolute;
+    position: relative;
     top:50px;
     left: 60%;
     z-index: 1;
